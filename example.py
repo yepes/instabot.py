@@ -11,7 +11,7 @@ from follow_protocol import follow_protocol
 import time
 
 
-bot = InstaBot(login="username", password="password",
+bot = InstaBot(login="example", password="password",
                like_per_day=1000,
                comments_per_day=0,
                tag_list=['follow4follow', 'f4f', 'cute'],
@@ -32,7 +32,10 @@ bot = InstaBot(login="username", password="password",
                                        'travel','art','shop','store','sex','toko','jual','online','murah','jam','kaos','case','baju','fashion',
                                         'corp','tas','butik','grosir','karpet','sosis','salon','skin','care','cloth','tech','rental',
                                         'kamera','beauty','express','kredit','collection','impor','preloved','follow','follower','gain',
-                                        '.id','_id','bags'])
+                                        '.id','_id','bags'],
+                bot_running_hour_start = 0,
+                bot_running_hour_end = 23
+            )
 while True:
 
     #print("# MODE 0 = ORIGINAL MODE BY LEVPASHA")
