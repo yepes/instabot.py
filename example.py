@@ -11,7 +11,7 @@ from follow_protocol import follow_protocol
 import time
 
 
-bot = InstaBot(login="example", password="password",
+bot = InstaBot(login="username", password="password",
                like_per_day=1000,
                comments_per_day=0,
                tag_list=['follow4follow', 'f4f', 'cute'],
